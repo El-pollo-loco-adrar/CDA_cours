@@ -1,0 +1,83 @@
+﻿VARIABLE : (stocker des informations) une petite boite qui contient des valeurs.
+	3 types de variables :
+				- numériques : 1,2,-10,-87,1.7,0.6...
+				- alphanumériques (chaine de caractères): "je ne suis pas un nombre"
+				- booléens : vrai ou faux
+
+déclarer variable : la créer
+affectation : mettre valeur dans variable. let v;
+initialisation :			   let v=3
+incrémentation : ajouter à la valeur déjà présente : v+= 5 <---> v = v+5
+
+
+BOUCLE : répétition
+
+
+		for ( let i=0 ; i<10 ; i++){	A : initialisation de la boucle
+						B : condition de tour de boucle
+		}				C : Instruction de fin de tour
+						D : Corps de la boucle
+
+		let i = 0;
+		while ( i<10) {		Tant que la condition est vraie, la boucle continue
+
+			}
+
+boucle for : structure claire : je sais ce qu'il va se passer : répétition 10  fois
+boucle while : structure flou : je ne sais pas combien de tour il va y avoir
+
+
+
+	if (condition){
+	  (si condition vraie, j'affiche);
+      } (condition fausse) else {
+
+OPERATEUR :fait une opération
+
+ 
++ - / * %	3%2 = 1   car j'ai 3 billes et je fais des paquets de 2 => reste 1
+			  on l'utilise surtout pour des boucles qui tournent en rond
+Booléens : réponse true ou false
+
+3!=2 true
+3==2 false
+3<2 false
+3<= false
+3>2 true
+3>=2 false
+
+Logique
+
+ET logique
+true && false => false 	résultat est vrai si et seulement si les 2 côtés sont vrais
+true && true => true
+
+OU logique
+true || false => true 	condition pour que le résultat soit vrai, il faut que l'un des 2 côtés soit true
+
+
+FONCTIONS : une machine qui fait quelque chose
+
+
+point de vue interne :
+pour créer une fonction : 	function f(){
+					...conso
+					...		(ce qui sera fait quand la fonction sera appelée)
+				}
+ajouter une inforamtion dans la création de la fonction :	function forward ( longueur ) {
+									...
+									...		(la varible sera créer par l'utilisateur) = cette varible s'appelle un argument		
+								}
+				function pikachu (a,b) {
+				return 40 ( la fonction est terminée, la réponse est 40)
+			RETURN: renvoie au résultat de la fonction. La fonction est terminée. (si autre chose est écrit après, ça ne marchera pas)
+
+
+point de vue externe :
+pour appeler la fonction : f(); (j'appuie sur le bouton GO)
+							function ( name, number){
+								}
+						pour utiliser la fonction f: f("wil", 29);  => pas la peine de créer une valeur let=
+
+			   forward (100) ; fonction à laquelle on donne une valeur
+			   pikachu (4,10);  fonction qui donne un résultat

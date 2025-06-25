@@ -1,0 +1,24 @@
+TABLEAU :
+
+1|3|-3|0|  -> contenu des cases
+0|1| 2|3|  -> Numéro des cases
+
+créer un tableau : ( [] fait référence aux tableau)
+let tab=[1,3,-3,0];
+
+afficher la case :
+tab[1] 
+console.log(tab[1]);
+
+Modifier case:
+tab[1] = 7;
+
+Ajouter une case :
+tab.push(99);  ajoute une case à la fin
+(tab est le nom du tableau)
+
+Supprimer la dernière case :
+tab.pop();  -> tout ça valait 99
+
+Connaitre la taille du tableau :
+tab.length  -> je récupère l'information, donc c'est une variable 

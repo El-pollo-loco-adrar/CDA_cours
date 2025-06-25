@@ -26,11 +26,12 @@ BOUCLE : répétition
 boucle for : structure claire : je sais ce qu'il va se passer : répétition 10  fois
 boucle while : structure flou : je ne sais pas combien de tour il va y avoir
 
-
+CONDITION :
 
 	if (condition){
 	  (si condition vraie, j'affiche);
       } (condition fausse) else {
+
 
 OPERATEUR :fait une opération
 

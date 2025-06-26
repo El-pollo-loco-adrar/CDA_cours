@@ -7,6 +7,7 @@
 déclarer variable : la créer
 affectation : mettre valeur dans variable. let v;
 initialisation :			   let v=3
+lecture : 				   v
 incrémentation : ajouter à la valeur déjà présente : v+= 5 <---> v = v+5
 
 

@@ -1,0 +1,11 @@
+#container{
+    border: solid 2px red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    p{
+        margin: 0 10px;
+        font-weight: 700;
+        font-size: 300%;
+    }
+}

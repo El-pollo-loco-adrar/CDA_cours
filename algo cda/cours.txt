@@ -66,9 +66,9 @@ pour créer une fonction : 	function f(){
 					...conso
 					...		(ce qui sera fait quand la fonction sera appelée)
 				}
-ajouter une inforamtion dans la création de la fonction :	function forward ( longueur ) {
+ajouter une information dans la création de la fonction :	function forward ( longueur ) {
 									...
-									...		(la varible sera créer par l'utilisateur) = cette varible s'appelle un argument		
+									...		(la variable sera créer par l'utilisateur) = cette varible s'appelle un argument		
 								}
 				function pikachu (a,b) {
 				return 40 ( la fonction est terminée, la réponse est 40)

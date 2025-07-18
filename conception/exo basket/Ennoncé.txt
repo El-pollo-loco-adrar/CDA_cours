@@ -1,0 +1,22 @@
+Une fédération sportive de basket désire une base de données pour gérer les joueurs, les équipes et les résultats sportifs des différents matchs et compétitions.
+Elle devra stocker :
+Entités :
+-Les joueurs (nom, prénom),
+-Les équipes (nom),
+-Le club (nom, adresse),
+-Le poste des joueurs dans l'équipe(nom),
+-Les compétitions (nom, date début, date de fin),
+-Les Lieux de la compétition (nom, adresse),
+-Les matchs (date),
+-Les phases de compétition (nom) ex : 8éme, quart de finale etc...
+-le score des équipes durant un match (nombre de point équipe 1, nombre de point équipe 2)
+Relations :
+Un joueur est membre d'une seule équipe, une équipe possède plusieurs joueurs,
+Une équipe fait partie d'un club, un club peut avoir plusieurs équipes,
+Un joueur à un poste dans l'équipe, un poste peut être possédé par plusieurs joueurs,
+Une équipe participe à plusieurs matchs, un match est joué par 2 équipes,
+Un match fait partie d'une compétition, une compétition est composée de plusieurs matchs,
+Un match est lié à une phase de compétition, une phase peut être liée à plusieurs matchs,
+Une équipe à un tableau de score par match, un tableau de score est lié à 2 équipes par match,
+Une compétition est localisée dans plusieurs lieux, un lieu peut localiser plusieurs compétitions.
+Réaliser le MCD MLD de la base de données

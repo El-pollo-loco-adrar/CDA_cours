@@ -1,0 +1,12 @@
+Un magasin à besoin pour gérer les achats de ces clients d'une base de données pour simuler une caisse enregistreuse et générer des tickets de caisse pour leurs client.
+La base devra stocker les données suivantes :
+Produits (nom, description, prix),
+Catégorie (nom),
+Vendeur (nom, prénom),
+Ticket de caisse (date),
+Un produit peut être vendu sur plusieurs tickets, un ticket peut avoir plusieurs produits,
+Un produit peut être vendu plusieurs fois (en plusieurs exemplaire) sur un ticket,
+Un vendeur peut être sur plusieurs ticket de caisse, un ticket de caisse n'a qu'un vendeur
+Un produit peut avoir une seule catégorie, une catégorie peut être sur plusieurs produits.
+Réaliser le MCD MLD de cette base de données.
+M'envoyer les captures en MP.

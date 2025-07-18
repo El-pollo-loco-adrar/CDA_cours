@@ -1,0 +1,6 @@
+bien nommer vos entités, attributs avec des noms qui ont du sens,
+si une donnée est répétée on va créer une entité pour la stocker,
+si une donnée est calculée (calculable) on ne va pas la stocker,
+le nom des tables d'association va prendre le nom des tables de chaque côté avec un underscore au milieu,
+si un attribut est composé de plusieurs mots on va les séparer par des underscore,
+on ne doit pas utiliser des mots clés réservés de SQL.

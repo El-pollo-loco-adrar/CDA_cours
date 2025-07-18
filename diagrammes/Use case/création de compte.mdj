@@ -12027,92 +12027,6 @@
 										},
 										{
 											"_type": "UMLSeqMessageView",
-											"_id": "AAAAAAGYE6//hrtlzcM=",
-											"_parent": {
-												"$ref": "AAAAAAGYE6vIOLryZIk="
-											},
-											"model": {
-												"$ref": "AAAAAAGYE6//hrtkreg="
-											},
-											"subViews": [
-												{
-													"_type": "EdgeLabelView",
-													"_id": "AAAAAAGYE6//hrtnpY8=",
-													"_parent": {
-														"$ref": "AAAAAAGYE6//hrtlzcM="
-													},
-													"model": {
-														"$ref": "AAAAAAGYE6//hrtkreg="
-													},
-													"visible": false,
-													"font": "Arial;13;0",
-													"left": 283,
-													"top": 211,
-													"height": 13,
-													"alpha": 1.5707963267948966,
-													"distance": 25,
-													"hostEdge": {
-														"$ref": "AAAAAAGYE6//hrtlzcM="
-													},
-													"edgePosition": 1
-												},
-												{
-													"_type": "EdgeLabelView",
-													"_id": "AAAAAAGYE6//hrtoP8k=",
-													"_parent": {
-														"$ref": "AAAAAAGYE6//hrtlzcM="
-													},
-													"model": {
-														"$ref": "AAAAAAGYE6//hrtkreg="
-													},
-													"visible": false,
-													"font": "Arial;13;0",
-													"left": 249,
-													"top": 212,
-													"height": 13,
-													"alpha": -1.5707963267948966,
-													"distance": 10,
-													"hostEdge": {
-														"$ref": "AAAAAAGYE6//hrtlzcM="
-													},
-													"edgePosition": 1
-												},
-												{
-													"_type": "UMLActivationView",
-													"_id": "AAAAAAGYE6//hrtpDXc=",
-													"_parent": {
-														"$ref": "AAAAAAGYE6//hrtlzcM="
-													},
-													"model": {
-														"$ref": "AAAAAAGYE6//hrtkreg="
-													},
-													"font": "Arial;13;0",
-													"left": 221,
-													"top": 228,
-													"width": 14,
-													"height": 28
-												}
-											],
-											"font": "Arial;13;0",
-											"head": {
-												"$ref": "AAAAAAGYE6yTA7sIGs4="
-											},
-											"tail": {
-												"$ref": "AAAAAAGYE6yTA7sIGs4="
-											},
-											"points": "229:208;259:208;259:228;235:228",
-											"stereotypeLabel": {
-												"$ref": "AAAAAAGYE6//hrtnpY8="
-											},
-											"propertyLabel": {
-												"$ref": "AAAAAAGYE6//hrtoP8k="
-											},
-											"activation": {
-												"$ref": "AAAAAAGYE6//hrtpDXc="
-											}
-										},
-										{
-											"_type": "UMLSeqMessageView",
 											"_id": "AAAAAAGYE7C0A7uUNPY=",
 											"_parent": {
 												"$ref": "AAAAAAGYE6vIOLryZIk="
@@ -12141,7 +12055,7 @@
 														"$ref": "AAAAAAGYE7C0A7uUNPY="
 													},
 													"edgePosition": 1,
-													"text": "3 : Afficher le formulaire ajout de produit"
+													"text": "2 : Afficher le formulaire ajout de produit"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -12253,7 +12167,7 @@
 														"$ref": "AAAAAAGYE7HJ+7uztB4="
 													},
 													"edgePosition": 1,
-													"text": "4 : Saisir les informations"
+													"text": "3 : Saisir les informations"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -12364,7 +12278,7 @@
 														"$ref": "AAAAAAGYE7JEV7vJUdk="
 													},
 													"edgePosition": 1,
-													"text": "5 : Cliquer sur le bouton ajouter"
+													"text": "4 : Cliquer sur le bouton ajouter"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -12475,7 +12389,7 @@
 														"$ref": "AAAAAAGYE7Urq7wja0w="
 													},
 													"edgePosition": 1,
-													"text": "6 : Vérifier si les champs sont remplis"
+													"text": "5 : Vérifier si les champs sont remplis"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -12586,7 +12500,7 @@
 														"$ref": "AAAAAAGYE7TuC7wCKvs="
 													},
 													"edgePosition": 1,
-													"text": "7 : Nettoyer les entrées"
+													"text": "6 : Nettoyer les entrées"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -12697,7 +12611,7 @@
 														"$ref": "AAAAAAGYE7Wmu7w9EG8="
 													},
 													"edgePosition": 1,
-													"text": "8 : Valider les entrées"
+													"text": "7 : Valider les entrées"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -12808,7 +12722,7 @@
 														"$ref": "AAAAAAGYE7XNg7xTlNs="
 													},
 													"edgePosition": 1,
-													"text": "9 : Préparer la requête"
+													"text": "8 : Préparer la requête"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -12919,7 +12833,7 @@
 														"$ref": "AAAAAAGYE7Y2rLxslwo="
 													},
 													"edgePosition": 1,
-													"text": "10 : Envoyer la requête"
+													"text": "9 : Envoyer la requête"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -13020,9 +12934,9 @@
 														"$ref": "AAAAAAGYE7Z88LyCwn0="
 													},
 													"font": "Arial;13;0",
-													"left": 974,
+													"left": 973,
 													"top": 707,
-													"width": 137.06494140625,
+													"width": 138.02978515625,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -13030,7 +12944,7 @@
 														"$ref": "AAAAAAGYE7Z88LyD+FI="
 													},
 													"edgePosition": 1,
-													"text": "11 : Exécuter la requête"
+													"text": "10 : Exécuter la requête"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -13141,7 +13055,7 @@
 														"$ref": "AAAAAAGYE7bpt7yafQg="
 													},
 													"edgePosition": 1,
-													"text": "12 : Retourner la réponse de la BDD"
+													"text": "11 : Retourner la réponse de la BDD"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -13253,7 +13167,7 @@
 														"$ref": "AAAAAAGYE7evDby0qRE="
 													},
 													"edgePosition": 1,
-													"text": "13 : Récupérer la réponse de la BDD"
+													"text": "12 : Récupérer la réponse de la BDD"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -13364,7 +13278,7 @@
 														"$ref": "AAAAAAGYE7gQAbzMulA="
 													},
 													"edgePosition": 1,
-													"text": "14 : Vérifier la réponse de la BDD"
+													"text": "13 : Vérifier la réponse de la BDD"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -13475,7 +13389,7 @@
 														"$ref": "AAAAAAGYE7jPgLzk6YE="
 													},
 													"edgePosition": 1,
-													"text": "15 : Afficher un message produit ajouté en BDD"
+													"text": "14 : Afficher un message produit ajouté en BDD"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -13556,6 +13470,18 @@
 											"activation": {
 												"$ref": "AAAAAAGYE7jPgLzoy/g="
 											}
+										},
+										{
+											"_type": "UMLTextView",
+											"_id": "AAAAAAGYF2Ay3ce76rg=",
+											"_parent": {
+												"$ref": "AAAAAAGYE6vIOLryZIk="
+											},
+											"font": "Arial;13;0",
+											"left": 72,
+											"top": 536,
+											"width": 256,
+											"height": 280
 										}
 									]
 								}
@@ -13573,20 +13499,6 @@
 									},
 									"target": {
 										"$ref": "AAAAAAGYE6z3prsh8II="
-									}
-								},
-								{
-									"_type": "UMLMessage",
-									"_id": "AAAAAAGYE6//hrtkreg=",
-									"_parent": {
-										"$ref": "AAAAAAGYE6vIN7rxKjU="
-									},
-									"name": "Message1",
-									"source": {
-										"$ref": "AAAAAAGYE6yTA7sBTtA="
-									},
-									"target": {
-										"$ref": "AAAAAAGYE6yTA7sBTtA="
 									}
 								},
 								{
@@ -13822,7 +13734,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGYE6vIN7rwBzk="
 							},
-							"name": "Role1"
+							"name": "Role1",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -13830,7 +13743,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGYE6vIN7rwBzk="
 							},
-							"name": "Role2"
+							"name": "Role2",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -13838,7 +13752,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGYE6vIN7rwBzk="
 							},
-							"name": "Role3"
+							"name": "Role3",
+							"type": ""
 						}
 					]
 				}
